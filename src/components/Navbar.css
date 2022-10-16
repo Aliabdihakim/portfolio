@@ -1,0 +1,18 @@
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px 10px 30px;
+}
+
+.navbar-logo{
+    width: 80px;
+}
+
+.navbar-links{
+    display: flex;
+}
+
+.navbar-link{
+    margin: 10px
+}
