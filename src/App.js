@@ -5,6 +5,7 @@ import projects from './content/projects'
 import otherprojects from './content/otherprojects'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import "./App.css"
 
 export const ThemeContext = createContext(null);
@@ -80,6 +81,7 @@ function App() {
                 {renderOtherProjects}
               </div>
             </div>
+            <Footer />
           </div>}
       </div>
     </ThemeContext.Provider>

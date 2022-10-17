@@ -9,11 +9,11 @@ const otherprojects = [
     },
     {
         id: 2,
-        title: "Halcyon Theme",
-        desc: "A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.",
-        tech: ["VS Code", "Sublime Text", "Atom", "iTerm2", "Hyper"],
-        github: "https://github.com/Aliabdihakim",
-        link: "https://www.google.com/"
+        title: "Portfolio",
+        desc: "This personal portfolio page.",
+        tech: ["React", "CSS", "ContextAPI"],
+        github: "https://github.com/Aliabdihakim/portfolio",
+        link: "https://www.aliabdihakim.com/"
     },
     {
         id: 3,

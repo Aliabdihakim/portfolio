@@ -1,0 +1,21 @@
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-copyright{
+
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 0;
+    margin-top: 100px;
+    font-size: 0.6rem;
+}
+
+.footer-version{
+
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10;
+    margin-bottom: 30px;
+    font-size: 0.6rem;
+}
