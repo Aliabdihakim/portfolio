@@ -1,0 +1,22 @@
+.other-div{
+
+    width: 30%;
+}
+
+.other-content-div{
+    background-color: #112240;
+    margin: 10px;
+    padding: 20px;
+}
+
+.other-desc{
+    font-size: 14px;
+}
+
+.other-tech{
+    font-family: 'Roboto Mono', monospace;
+    color: #64ffda;
+    font-weight: 200;
+    font-size: 0.8rem;
+ 
+}

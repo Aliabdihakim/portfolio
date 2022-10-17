@@ -22,7 +22,6 @@ function Hero() {
                 <TypeWriter 
                 onInit={(typewriter) => {
                 typewriter.typeString("Ali Abdihakim")
-                .changeDelay(50)
                 .start()
               }}
               />

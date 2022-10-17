@@ -11,8 +11,11 @@
 
 .navbar-links{
     display: flex;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .navbar-link{
-    margin: 10px
+    margin: 10px;
+    color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
 }
