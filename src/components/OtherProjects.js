@@ -20,12 +20,14 @@ function OtherProjects(props) {
                 </div>
             </div>
             <h2 className='other-title'>{props.title}</h2>
-            <p className='other-desc'>{props.desc}</p>
-            <p className='other-tech'>
-                {(props.tech).map(item => {
-                        return(<span style={{paddingRight: "10px"}}>{item}</span>)
-                    })}
-            </p>
+            <div className='other-tech-desc'>
+                <p className='other-desc'>{props.desc}</p>
+                <p className='other-tech'>
+                    {(props.tech).map(item => {
+                            return(<span style={{paddingRight: "10px"}}>{item}</span>)
+                        })}
+                </p>
+            </div>
         </div>
     </div>
   )

@@ -15,6 +15,12 @@
     height: 300px;
 }
 
+.other-tech-desc{
+    display: flex;
+    flex-direction: column;
+   
+}
+
 .other-desc{
     font-size: 14px;
 }
@@ -24,7 +30,7 @@
     color: #64ffda;
     font-weight: 200;
     font-size: 0.8rem;
- 
+   
 }
 
 .other-all-icons{
