@@ -26,13 +26,20 @@ function Hero() {
               }}
               />
             </h1>
-            <h2 className="hero-title">
+            <h2 className="hero-title" style={{marginBottom:"0"}}>
               <TypeWriter 
               onInit={(typewriter) => {
-                typewriter.typeString("Full stack & Machine Learning")
+                typewriter.typeString("Frontend Developer")
                 .start()
               }}/>
             </h2> 
+            <h3 className="hero-title" style={{fontWeight:"100", fontSize: "20px"}}>
+              <TypeWriter 
+              onInit={(typewriter) => {
+                typewriter.typeString("With ❤ for UI")
+                .start()
+              }}/>
+            </h3> 
             <button className="hero-button" id={theme.theme}>Contact me</button>
 
             <div className="hero-switch-div">

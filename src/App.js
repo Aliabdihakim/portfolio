@@ -6,9 +6,11 @@ import otherprojects from './content/otherprojects'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import AppRed from './components/AppRed'
 import "./App.css"
 
 export const ThemeContext = createContext(null);
+
 
 function App() {
 
@@ -68,6 +70,7 @@ function App() {
 
           {loading==false&&
           <div>
+            <AppRed />
             <Navbar />
             <Hero />
             <div className='project-header'>
