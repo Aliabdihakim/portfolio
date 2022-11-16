@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import "./Hero.css"
 import TypeWriter from "typewriter-effect"
 import ReactSwitch from "react-switch"
-import { ThemeContext } from '../App';
+import { ThemeContext } from '../../App';
 
 
 function Hero() {
@@ -15,7 +15,7 @@ function Hero() {
         <div className="hero-container">
             
             <div className='img-div'>
-              <img src={require("../img/alibild2.png")} className="hero-img"/>
+              <img src={require("../../img/alibild2.png")} className="hero-img"/>
             </div>
 
             <h1 className="hero-name" id={theme.theme}>

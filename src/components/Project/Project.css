@@ -1,0 +1,61 @@
+.project-div{
+    border-style: solid;
+    border-color: #28364b;
+    border-width: 5px;
+    border-radius: 8px;
+}
+
+.project-loop{
+    background-color: #28364b;
+    margin: 0;
+    padding:10px ;
+}
+
+.project-img-div{
+    background-color: #64ffda;
+}
+
+.project-img{
+    width: 100%;
+}
+
+.project-info-div{
+    padding: 10px 30px 50px 30px;
+}
+
+.project-type{
+    color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+
+.project-title{
+    margin: 0;
+}
+
+.project-tech{
+    color: #64ffda;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+    font-weight: 400;
+    background-color: #28364b;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.project-tech-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-desc{
+    font-size: 1.1rem;
+    line-height: 2;
+    color: white;
+}
+
+.project-icons{
+    font-size: 1.5rem;
+    padding-right: 2rem ;
+}
+
