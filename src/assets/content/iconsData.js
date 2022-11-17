@@ -1,0 +1,53 @@
+const icons = [
+    {
+        icon:"ri:html5-fill",
+        title:"HTML"
+    },
+    {
+        icon:"uil:html3",
+        title:"CSS"
+    },
+    {
+        icon:"bxl:javascript",
+        title:"Javascript"
+    },
+    {
+        icon:"mdi:react",
+        title:"React"
+    },
+    {
+        icon:"akar-icons:nextjs-fill",
+        title:"NextJs"
+    },
+    {
+        icon:"ion:logo-sass",
+        title:"Sass"
+    },
+    {
+        icon:"simple-icons:nodedotjs",
+        title:"NodeJs"
+    },
+    {
+        icon:"simple-icons:express",
+        title:"Express"
+    },
+    {
+        icon:"simple-icons:mongodb",
+        title:"MongoDB"
+    },
+    {
+        icon:"mdi:language-python",
+        title:"Python"
+    },
+    {
+        icon:"bxl:figma",
+        title:"Figma"
+    },
+    {
+        icon:"mdi:firebase",
+        title:"Firebase"
+    },
+]
+
+export default icons
+

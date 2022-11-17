@@ -19,3 +19,9 @@
     color: #64ffda;
     font-family: 'Roboto Mono', monospace;
 }
+
+#light .navbar-link{
+    margin: 10px;
+    color:  #183444;
+    font-family: 'Roboto Mono', monospace;
+}

@@ -12,7 +12,7 @@ const Project = (props) => {
         <img className='project-img' src={(props.img)}/>
         <div className='project-img-div'>
 
-        </div>
+        </div>  
         <div className='project-info-div'>
             <h4 className='project-type'>{props.type}</h4>
             <h1 className='project-title'>{props.title}</h1>

@@ -1,0 +1,40 @@
+.icon-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #28364b;
+    margin: 10px;
+    box-shadow: 2px 2px 5px;
+}
+
+#light .icon-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #8892b0;
+    color: #28364b;
+    margin: 10px;
+    box-shadow: 2px 2px 5px;
+}
+
+.icon-item{
+    font-size: 3rem;
+}
+
+.icon-title{
+    margin: 0;
+}
+
+.rendericon-div{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 0.5fr));
+    justify-content: center;
+}
+
+.rendericon-div2{
+   
+}
+
+/*background-color: #28364b;*/

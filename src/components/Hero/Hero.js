@@ -10,12 +10,12 @@ function Hero() {
   const theme = useContext(ThemeContext);
  
   
-  return (
+  return ( 
     <>
         <div className="hero-container">
-            
+             
             <div className='img-div'>
-              <img src={require("../../img/alibild2.png")} className="hero-img"/>
+              <img src={require("../../assets/img/alibild2.png")} className="hero-img"/>
             </div>
 
             <h1 className="hero-name" id={theme.theme}>
@@ -40,7 +40,7 @@ function Hero() {
                 .start()
               }}/>
             </h3> 
-            <button className="hero-button" id={theme.theme}>Contact me</button>
+            {/*<button className="hero-button" id={theme.theme}>Contact me</button>*/}
 
             <div className="hero-switch-div">
               <label htmlFor='switch'>
