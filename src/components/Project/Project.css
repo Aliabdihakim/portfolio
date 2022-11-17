@@ -104,3 +104,10 @@
     padding-right: 2rem ;
 }
 
+@media screen and (max-width: 850px){
+    .project-tech-div{
+      display: flex;
+      justify-content: space-between;
+    }
+}
+
