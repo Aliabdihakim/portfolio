@@ -29,7 +29,7 @@ function App() {
     else{
       document.body.style.backgroundColor = "#f3ebf6";
     }
-  })
+  }) 
 
 
   const renderProjects = projects.map(project => {

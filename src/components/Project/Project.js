@@ -6,7 +6,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Project = (props) => {
 
     const renderTech = props.tech.map(tech => <p className='project-tech'>{tech}</p>)
-  return (
+  return ( 
     <div className='project-div'>
         <h1 className='project-loop'>⌘</h1>
         <img className='project-img' src={(props.img)}/>
