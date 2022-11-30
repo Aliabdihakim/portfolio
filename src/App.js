@@ -66,10 +66,10 @@ function App() {
               <h1 className='about-header' id="about"><span className='about-header-number'>01.</span>About</h1>
                 <p className='about-text'>
                   Hello! My name is Ali and I am a software engineer with a M.sc in Computer Science (Teknisk Fysik, M.sc Datateknik).
-                  I enjoy building and designing digital products. My main these days has been building products and digital experiences for a variety of clients, 
+                  I enjoy building and designing digital products. My main focus these days has been building products and digital experiences for a variety of clients, 
                   you can view some of them below. Here are a few technologies I've been working with recently:
                 </p>
-              </div>
+              </div> 
               <Stack />
             </div>
 

@@ -15,9 +15,7 @@ const Stack = () => {
     })
   return (
     <div className='rendericon-div'>
-       
-            {renderIcons}
-
+        {renderIcons}
     </div>
   )
 }

@@ -9,7 +9,6 @@ body{
 .loader-container { 
     width: 100%;
     height: 100vh;
- 
     background: #0a192f
         url("https://media.giphy.com/media/Iqw7JiDTpbmHiJfeDg/giphy.gif") 
         center
@@ -128,7 +127,14 @@ body{
 
   
 
-  
+  @media screen and (max-width: 1050px){
+    .project-container{
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap:10px;
+      padding-top: 2rem;
+    }
+  }
 
   @media screen and (max-width: 850px) {
     .app-other-div{
@@ -150,13 +156,6 @@ body{
     .about-text{
       line-height: 2;
       text-align: center;
-    }
-
-    .project-container{
-      display: grid;
-      grid-template-columns: repeat(1, minmax(0, 1fr));
-      gap:10px;
-      padding-top: 2rem;
     }
 
     .contact-text{

@@ -19,9 +19,11 @@ const Project = (props) => {
             <div className='project-tech-div'>
                 {renderTech}
             </div>
-            <p className='project-desc'>{props.desc}</p>
-            <FaGithub className='project-icons'/>
-            <FaExternalLinkAlt className='project-icons'/>
+            <div className='project-desc-div'>
+              <p className='project-desc'>{props.desc}</p>
+              <a href={props.github}><FaGithub className='project-icons'/></a>
+              <a href={props.link}><FaExternalLinkAlt className='project-icons'/></a>
+            </div>
         </div>
     </div>
   )

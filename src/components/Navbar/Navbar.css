@@ -25,3 +25,29 @@
     color:  #183444;
     font-family: 'Roboto Mono', monospace;
 }
+
+.navbar-links-phone{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links-phone{
+        display: inline-block;
+    }
+
+    .navbar-phone-open{
+        display: flex;
+      
+    }
+
+    .navbar-phone-icon{
+        background-color:  #1a4a65;
+        color: #64ffda;
+        padding: 8px;
+        border-radius: 6px;
+    }
+}
