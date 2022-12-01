@@ -3,12 +3,14 @@ import "./Navbar.css"
 import { ThemeContext } from '../../App'
 import {Link} from "react-scroll"
 import { FaAlignJustify } from "react-icons/fa";
+import { useMediaQuery } from 'react-responsive'
 
 function Navbar() {
 
   const {theme} = useContext(ThemeContext)
   console.log(theme);
   const [navMenu, setNavMenu] = useState(false)
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 850px)' })
 
   return (
     <div>
@@ -32,8 +34,12 @@ function Navbar() {
                   </Link>
                 </p> 
             </div>
+
+            <div className='navbar-links-phone'>
+              <FaAlignJustify onClick={()=>setNavMenu(prev => !prev)} className='navbar-phone-icon' />
+            </div>
             
-            {navMenu && 
+            {navMenu && isTabletOrMobile && 
             <div className='navbar-phone-open'>
               <p className='navbar-link navbar-about'>
                   <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
@@ -51,10 +57,6 @@ function Navbar() {
                   </Link>
                 </p> 
             </div>}
-
-            <div className='navbar-links-phone'>
-              <FaAlignJustify onClick={()=>setNavMenu(prev => !prev)} className='navbar-phone-icon' />
-            </div>
 
         </nav>
     </div>

@@ -23,7 +23,7 @@ const Project = (props) => {
               <p className='project-desc'>{props.desc}</p>
               <a href={props.github}><FaGithub className='project-icons'/></a>
               <a href={props.link}><FaExternalLinkAlt className='project-icons'/></a>
-            </div>
+            </div> 
         </div>
     </div>
   )

@@ -31,17 +31,25 @@
 }
 
 @media screen and (max-width: 850px){
+
+    .navbar-nav{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        justify-items: center;
+        gap: 10px;
+    }
+
     .navbar-links{
         display: none;
     }
 
     .navbar-links-phone{
-        display: inline-block;
+        display: block;
     }
 
     .navbar-phone-open{
-        display: flex;
-      
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0,1fr));
     }
 
     .navbar-phone-icon{
