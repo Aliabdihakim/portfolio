@@ -36,7 +36,7 @@ function App() {
     return(
       <Project
       key={project.id}
-      type={project.type}
+      type={ project.type}
       title={project.title}
       desc={project.desc}
       tech={project.tech}
@@ -46,7 +46,7 @@ function App() {
       />
     )
   })
-
+//--- >>
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className='App' id={theme}>
